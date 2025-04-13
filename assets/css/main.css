@@ -1692,6 +1692,14 @@ input, select, textarea {
 				background-color: #d96760;
 			}
 
+			input[type="button"].style1:focus,
+			input[type="submit"].style1:focus,
+			input[type="reset"].style1:focus,
+			button.style1:focus,
+			.button.style1:focus {
+				background-color: #002366;
+			}
+
 		input[type="button"].style2,
 		input[type="submit"].style2,
 		input[type="reset"].style2,
