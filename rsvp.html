@@ -60,38 +60,65 @@
 						<div class="row aln-center">
 							<div class="col-4 col-12-medium">
 								<section class="style1">
-									<form
-										  action="https://formspree.io/f/xvgoggnb"
-										  method="POST"
-										>
-											<div class="col-6 col-12-medium">
-												<div class="col-6 col-12-small">
-													<input type="text" name="name" id="contact-name" placeholder="Name(s)" /><br>
-												</div>
-												<div class="col-6 col-12-small">
-													<input type="text" name="diet" id="contact-name" placeholder="Dietary Restrictions" /><br>
-												</div>
-												<div class="actions">
-													<li><input type="button" id="yes" class="button style4" name="RSVPY" value="I/We will be there!">
-													<label for="yes">I/We will be there!</label><br></li><br>
-  													<li><input type="button" id="no" class="button style4" name="RSVPN" value="I/We are unable to attend">
-  													<label for="no">I/We are unable to attend</label></li><br>
-												</div>
-												<!-- <div class="button style1">
-												<label for="yes">I/We will be there!</label>
-													<input type="radio" id="yes" name="fav_language" value="Yes">
-  													<label for="yes">I/We will be there!</label><br>
-  													<input type="radio" id="no" name="fav_language" value="No">
-  													<label for="no">I/We are unable to attend</label><br>
-												</div> -->
-												<div class="col-6 col-12-small">
-													<ul class="actions">
-														<li><input type="submit" class="style3" value="Send" /></li><br>
-														<li><input type="reset" class="style2" value="Reset" /></li>
-													</ul>
-												</div>
-											</div>
-										</form>
+									      
+
+        
+        
+<form
+  action="https://formspree.io/f/mvgrnddl"
+  class="fs-form fs-layout__2-column"
+  target="_top"
+  method="POST"
+>
+  <fieldset>
+    <div class="fs-field">
+      <label class="fs-label" for="first-name">Name(s)</label>
+      <input class="fs-input" id="names" name="names" required />
+    </div>
+  </fieldset>
+  <fieldset>
+    <div class="fs-field">
+      <label class="fs-label">
+        Will you be joining us on October 26th in Anoka, MN?
+      </label>
+      <div class="fs-checkbox-group">
+        <div class="fs-checkbox-field">
+          <div class="fs-checkbox-wrapper">
+            <input
+              class="fs-checkbox"
+              id="able-to-attend"
+              name="dates"
+              required
+              type="checkbox"
+              value="Yes"
+            />
+          </div>
+          <div>
+            <label class="fs-label" for="able-to-attend">I/We will be there!</label>
+          </div>
+        </div>
+        <div class="fs-checkbox-field">
+          <div class="fs-checkbox-wrapper">
+            <input
+              class="fs-checkbox"
+              id="unable-to-attend"
+              name="no"
+              required
+              type="checkbox"
+              value="No"
+            />
+          </div>
+          <div>
+            <label class="fs-label" for="unable-to-attend">I/We will not be able to attend.</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+  <div class="fs-button-group">
+    <button class="fs-button" type="submit">Submit</button>
+  </div>
+</form>
 								</section>
 							</div>
 							
