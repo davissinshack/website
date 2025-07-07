@@ -3154,7 +3154,6 @@ fieldset {
   white-space: nowrap;
 }
 
-
     .toggle-group {
       display: flex;
       gap: 20px;
@@ -3162,12 +3161,26 @@ fieldset {
     }
 
     .toggle-button {
-      padding: 10px 20px;
-      border: 2px solid #ccc;
-      border-radius: 8px;
-      background-color: #f0f0f0;
-      cursor: pointer;
-      transition: background-color 0.3s, border-color 0.3s;
+		-moz-transition: all .25s ease-in-out;
+		-webkit-transition: all .25s ease-in-out;
+		-ms-transition: all .25s ease-in-out;
+		transition: all .25s ease-in-out;
+		display: inline-block;
+		background: #444;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 700;
+		letter-spacing: 0.25em;
+		text-decoration: none;
+		border-radius: 0.35em;
+		border: 0;
+		outline: 0;
+		cursor: pointer;
+		padding: 0 2.25em 0 2.25em;
+		font-size: 0.9em;
+		min-width: 12em;
+		height: 4em;
+		line-height: 4em;
     }
 
     .toggle-button.active {
